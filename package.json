@@ -1,7 +1,7 @@
 {
   "version": "3.0.0",
-  "name": "gatsby-v2-starter-lumen",
-  "description": "Simple starter for Gatsby",
+  "name": "TIL by Kelsey Huse",
+  "description": "Blog for Kelsey Huse",
   "main": "n/a",
   "scripts": {
     "develop": "gatsby develop",
@@ -13,7 +13,7 @@
     "format": "prettier --write './*.js' 'src/**/*.js' 'src/**/*.jsx'",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
-  "repository": "git+https://github.com/alxshelepenok/gatsby-starter-lumen.git",
+  "repository": "git+https://github.com/kelseyhuse30/til_blog.git",
   "keywords": [
     "gatsby",
     "blog",
@@ -21,8 +21,7 @@
     "theme",
     "starter"
   ],
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
-  "license": "MIT",
+  "author": "Kelsey Huse <huse.kelsey@gmail.com>",
   "dependencies": {
     "bluebird": "^3.5.1",
     "gatsby": "^2.0.22",
