@@ -6,8 +6,8 @@ module.exports = {
     url: 'https://lumen.netlify.com',
     title: 'TIL by Kelsey Huse',
     subtitle:
-      '<%= @today.i_learned %>',
-    copyright: '© All rights reserved.',
+      '<%= @today.i_learned %>     Blogging about Javascript and Ruby on Rails',
+    copyright: '© 2019 All rights reserved.',
     disqusShortname: '',
     menu: [
       {
@@ -15,11 +15,11 @@ module.exports = {
         path: '/',
       },
       {
-        label: 'About me',
+        label: 'About',
         path: '/about/',
       },
       {
-        label: 'Contact me',
+        label: 'Contact',
         path: '/contact/',
       },
     ],
