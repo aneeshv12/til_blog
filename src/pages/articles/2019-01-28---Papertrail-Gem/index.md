@@ -27,7 +27,7 @@ If multiple people had touched that piece of data, I would not have much history
 
 On my first day at Pingboard in Sept. 2018, I looked through the internal Wiki pages and wrote down `Look into Papertrail Gem` as a to-do item.
 
-Our app is a Ruby on Rails app, which means we can use gems (a type of plugin/package for Rails apps).  These gems enable us to track the history of chosen data models within our app.
+Our app is a Ruby on Rails app, which means we can use gems (a type of plugin/package for Rails apps).  This specific gem enables us to track the history of chosen data models within our app.
 
 Like most apps (including the healthcare software I previously worked with), we have a `User` model.  The Ruby model file, including the line `has_paper_trail`, indicates that the app should track the different versions of that model in our database.  Papertrail uses a table called `Versions` to store all of this data.  The relationship between the model and the versions table is a one-to-many relationship since `One` User row has `Many` previous version rows containing snapshot information of the model.
 
