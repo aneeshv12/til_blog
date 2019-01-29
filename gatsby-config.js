@@ -6,7 +6,7 @@ module.exports = {
     url: 'https://lumen.netlify.com',
     title: 'TIL by Kelsey Huse',
     subtitle:
-      '<%= @today.i_learned %>     Blogging about Javascript and Ruby on Rails',
+      '<%= @today.i_learned %> An early-career developer\'s discoveries in Ruby, Rails, Javascript, and React.  Currently the Support Engineer @ Pingboard in Austin, TX',
     copyright: '© 2019 All rights reserved.',
     menu: [
       {
