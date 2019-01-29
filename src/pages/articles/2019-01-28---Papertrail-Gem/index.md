@@ -37,7 +37,7 @@ Papertrail is able to identify who changed the data by attaching itself to the `
 
 Keeping track of different versions allows a person to revert back to a previous version if necessary. This idea is very similar to the one used in the version control system many developers are familiar with, Git.  Papertrail has a method called `reify` that can be called upon an instance of a version to revive that model back to the state in the specified version. This is super handy when a lot of unwanted changes happen in an app!
 
-It is important to realize that in an app where data is changed often, this versions table could become extremely bloated and expensive.  Papertrail gives you the ability to configure a limit of versions saved.  At Pingboard, we keep a record of 40, [which is documented in our security information](https://pingboard.com/security).
+It is important to realize that in an app where data is changed often, this Versions table could become extremely bloated and expensive.  Papertrail gives you the ability to configure a limit of versions saved.  At Pingboard, we keep a record of 40, [which is documented in our security information](https://pingboard.com/security).
 
 I highly recommend adding the Papertrail Gem to any Rails app where data is owned by multiple users.  It may be overkill and wasteful in an app where data is always owned by one user, and unable to be changed by anyone else.
 
