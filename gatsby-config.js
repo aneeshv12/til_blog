@@ -8,7 +8,6 @@ module.exports = {
     subtitle:
       '<%= @today.i_learned %>     Blogging about Javascript and Ruby on Rails',
     copyright: '© 2019 All rights reserved.',
-    disqusShortname: '',
     menu: [
       {
         label: 'Posts',
